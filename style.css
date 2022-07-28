@@ -10,6 +10,9 @@
 .explore-bg-color{
     background-color: #F4FAFD;
 }
+.carousel-item{
+    height: 40rem;
+}
 
 @media screen and (max-width: 768px) {
     .carousel-caption {
@@ -20,8 +23,12 @@
         top: 0 !important;
         padding: 3px 3px 0 3px !important;
     }
+    .carousel-item{
+        height: auto;
+    }
     .banner-title{
         font-size: 22px !important;
+        margin-top: 20px;
     }
     .carousel-caption p{
         font-size: 15px !important;
@@ -35,5 +42,15 @@
     }
     .resgistr{
         flex-direction: column;
+    }
+  }
+  @media only screen and (min-width:769px) and (max-width:992px) {
+    .carousel-item{
+        height: auto;
+    }
+    .banner-title{
+        font-size: 22px !important;
+        margin-top: 30px;
+        padding-top: 10px;
     }
   }
