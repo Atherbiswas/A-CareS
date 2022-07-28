@@ -33,4 +33,7 @@
     .student-name{
         text-align: center;
     }
+    .resgistr{
+        flex-direction: column;
+    }
   }
