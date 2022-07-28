@@ -1,3 +1,13 @@
 .banner-title{
     font-size: 60px;
 }
+.slider-img{
+    filter: brightness(60%);
+}
+.card-item{
+    max-width: 580px;
+    
+}
+.explore-bg-color{
+    background-color: #F4FAFD;
+}
