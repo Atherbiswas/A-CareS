@@ -4,10 +4,6 @@
 .slider-img{
     filter: brightness(60%);
 }
-.card-item{
-    max-width: 580px;
-    
-}
 .carousel-caption {
     bottom: 9.25rem !important;
 }
