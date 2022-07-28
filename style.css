@@ -8,6 +8,33 @@
     max-width: 580px;
     
 }
+.carousel-caption {
+    bottom: 9.25rem !important;
+}
 .explore-bg-color{
     background-color: #F4FAFD;
 }
+
+@media screen and (max-width: 768px) {
+    .carousel-caption {
+        bottom: 2.25rem !important;
+        left: 0 !important;
+        right: 0 !important;
+        width: 100%;
+        top: 0 !important;
+        padding: 3px 3px 0 3px !important;
+    }
+    .banner-title{
+        font-size: 22px !important;
+    }
+    .carousel-caption p{
+        font-size: 15px !important;
+        margin-bottom: 5px;
+    }
+    .popular-section img{
+        width: 100%;
+    }
+    .sudent-name{
+        text-align: center;
+    }
+  }
